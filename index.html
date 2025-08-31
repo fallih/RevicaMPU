@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="Script.js"></script>
+  
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">Portfolio</div>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#study">Study</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <!-- Hamburger -->
+      <div class="hamburger" id="hamburger">☰</div>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section id="home" class="hero fade-in">
+    <div class="hero-text">
+      <h1>Hello, I'm <span>REVICA MELLYANTI PUTRI</span>👋</h1>
+      <p>Visual Communication Design (DKV) student</p>
+      <!-- Highlight Skills -->
+      <div class="highlight-skills">
+        <div class="skill-box">🎥 Videography</div>
+        <div class="skill-box">📸 Photography</div>
+        <div class="skill-box">💻 Programming</div>
+        <div class="skill-box">🎨 Design</div>
+      </div>
+      <!-- CTA Buttons -->
+      <div class="cta-buttons">
+        <a href="#projects" class="btn">Lihat Proyek</a>
+        <a href="#study" class="btn">My Study</a>
+      </div>
+    </div>
+
+    <div class="hero-img">
+      <img src="image/image2.jpeg" alt="Profile Picture">
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="about fade-in">
+    <h2>About Me</h2>
+    <p>
+      Let me introduce myself, I'm Revica Mellyanti Putri, usually called Vika or Cece. I was born on May 15, 2008. I live on Jl. Pikas 3, Gabek District, Air Salemba Village, Pangkalpinang City, Bangka Belitung. I attend State Vocational School 1 Pangkalpinang.
+    </p>
+  </section>
+
+  <!-- ===== My Study Section ===== -->
+<section id="study">
+  <div class="container">
+    <h2>My Study</h2>
+    <div class="study-grid">
+      <div class="study-card">
+         <img src="image/image5.jpg" alt="Videography & Fotography">
+        <h3>🎥 Videography & Fotography</h3>
+        <p>Learn the techniques of shooting, visual editing, and photo/video processing to be more professional.</p>
+      </div>
+      <div class="study-card">
+         <img src="image/image6.png" alt="Programmer">
+        <h3>💻 Programmer</h3>
+        <p>Create applications, websites, and code-based systems with various programming languages.</p>
+      </div>
+      <div class="study-card">
+         <img src="image/image7.jpg" alt="Desainer">
+        <h3>🎨 Designer</h3>
+        <p>Mastering graphic design for branding, posters, and social media needs with strong aesthetics.</p>
+      </div>
+      <div class="study-card">
+         <img src="image/image8.jpg" alt="Web Designer">
+        <h3>🌐 Web Designer</h3>
+        <p>Design a modern, responsive, and user-friendly website interface.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+  <!-- Projects -->
+  <section id="projects" class="projects fade-in">
+    <h2>My Projects</h2>
+    <div class="project-container">
+      <div class="project-card fade-in">
+        <video controls width="100%">
+             <source src="video/video1(1).mp4" type="video/mp4">
+        </video>
+        <h3>Minivlog</h3>
+        <p>A mini vlog is a short video featuring snippets of daily activities or specific moments, presented in a simple yet engaging way for sharing on social media. They are typically short, making them easier to watch and more concise.</p>
+      </div>
+      <div class="project-card fade-in">
+        <img src="image/image4.png" alt="Project 2">
+        <h3>Banner</h3>
+        <p>A banner is a printed publication medium in the form of cloth or similar material containing text and images, used to convey information, promotions, or invitations to the public. It is typically displayed lengthwise in public places for easy visibility.</p>
+      </div>
+      <div class="project-card fade-in">
+        <video controls width="100%">
+            <source src="video/video2(1).mp4" type="video/mp4">
+        </video>
+        <h3>Short Film</h3>
+        <p>A short film is a short audiovisual work (usually less than 60 minutes) that conveys an idea, story, or message concisely and clearly. Films are often used as a medium for expression, education, and entertainment.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+  <h2>Contact Me</h2>
+  <p>If you want to collaborate or just say hello, contact me via the following form or social media:</p>
+
+  <div class="social-links">
+    <a href="https://youtube.com/@capy_cornerr?si=6iOYKKKTsA_XWkY3" target="_blank"><i class="fab fa-youtube"></i></a>
+    <a href="https://www.tiktok.com/@pxl_soull?_t=ZS-8zIkZ7zDmXC&_r=1" target="_blank"><i class="fab fa-tiktok"></i></a>
+    <a href="https://x.com/Revica772072?t=GmWvcFrU8piMLQuYFBkp9A&s=09" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+  </div>
+
+  <form class="contact-form">
+    <input type="text" placeholder="Your Name" required>
+    <input type="email" placeholder="Your Email" required>
+    <textarea placeholder="Your Message" required></textarea>
+    <button type="submit">Send Message</button>
+  </form>
+</section>
+
+
+  <!-- Footer -->
+  <footer class="fade-in">
+    <p>&copy; 2025, Revica Mellyanti Putri | All Rights Reserved</p>
+  </footer>
+
+</body>
+</html>
